@@ -1,0 +1,43 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Projekts/89C52/include",
+                "C:/Projekts/89C52/src",
+                "C:/Projekts/89C52/.pio/libdeps/STC89C52RC/Unity/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Projekts/89C52/include",
+                    "C:/Projekts/89C52/src",
+                    "C:/Projekts/89C52/.pio/libdeps/STC89C52RC/Unity/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=11059200L",
+                "HEAP_SIZE=128",
+                "PLATFORMIO=60116",
+                "STC89C5XRX",
+                "STC89C52RC",
+                "NAKED_ARCH_MCS51",
+                "NAKED_MCS51_STC89C5XRX",
+                ""
+            ],
+            "compilerPath": "C:/Users/Nymphaea/.platformio/packages/toolchain-sdcc/bin/sdcc.exe",
+            "compilerArgs": [
+                "-mmcs51",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
